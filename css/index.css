@@ -1,0 +1,65 @@
+.i-mainText{
+        animation: changeText 4s infinite;
+       
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.i-inputUserName{
+    background-color: black;
+}
+
+.i-nav{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.234);
+}
+
+
+
+.i-Shadow{
+    box-shadow: 1px 1px 10px rgb(3, 188, 255);
+}
+
+.i-homeLink{
+    font-size: 25px;
+}
+
+.i-footer{
+    border-top: 1px solid rgba(255, 255, 255, 0.234);
+    bottom: 0;
+
+    
+}
+
+
+.i-footer a{
+    font-size: 15px;
+}
+
+.i-footer div i{
+    font-size: 25px;
+    
+}
+
+.i-googleBtn{
+    background-color: black;
+    border-radius: 10px;
+}
+
+
+
+body,nav{
+    background-color: black;
+}
+
+
+
+@keyframes changeText {
+    from{
+        color: rgb(251, 255, 0);
+    }
+    to{
+        color:rgb(0, 247, 255);
+    }
+}
